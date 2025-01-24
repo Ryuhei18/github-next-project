@@ -1,2 +1,53 @@
 # github-next-project
 creating a new github page with using next.js framework.
+
+<details>  
+  <summary>Linkコンポーネントの主要なprops</summary>
+  <table>
+    <thead>
+      <tr>
+        <th>props名</th>
+        <th>型</th>
+        <th>デフォルト値</th>
+        <th>説明</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>href</td>
+        <td>string</td>
+        <td>必須</td>
+        <td>リンク先のURL（必ず指定する必要があります）</td>
+      </tr>
+      <tr>
+        <td>as</td>
+        <td>string</td>
+        <td>href値</td>
+        <td>ブラウザに表示されるURLのカスタマイズ</td>
+      </tr>
+      <tr>
+        <td>prefetch</td>
+        <td>boolean</td>
+        <td>true</td>
+        <td>リンク先をページロード時に読み込んでおくか</td>
+      </tr>
+      <tr>
+        <td>replace</td>
+        <td>boolean</td>
+        <td>false</td>
+        <td>trueの場合、ブラウザの履歴に新しいページを追加せず、現在のページを置き換えます</td>
+      </tr>
+      <tr>
+        <td>scroll</td>
+        <td>boolean</td>
+        <td>false</td>
+        <td>ページ遷移後に画面上部にスクロールするかどうか</td>
+      </tr>
+      <tr>
+        <td>shallow</td>
+        <td>boolean</td>
+        <td>false</td>
+        <td>trueの場合、データの再取得なしでURLだけを更新します</td>
+      </tr>
+    </tbody>
+  </table>
+</details>
